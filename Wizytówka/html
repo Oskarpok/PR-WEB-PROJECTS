@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buisess Card Design</title>
+    <script src="https://kit.fontawesome.com/1595806006.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="card card-front"> 
+
+            <div class="top">
+                <img src="img.png" alt="Card Logo">
+                <h1>EGATOR</h1>
+                <p class="lead">company name</p>
+            </div>
+
+            <div class="bottom">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+
+        <div class="card card-back">
+
+            <div class="left">
+
+                <div class="top">
+                    <img src="img.png" alt="Card Logo">
+                    <h1>egator</h1>
+                    <p class="lead">company name</p>
+                </div>
+
+                <div class="middle contact-details">
+
+                    <span class="icon">
+                        <i class="fas fa-globe"></i>
+                    </span>
+
+                    <span class="content">
+                        <p>www.company.com</p>
+                        <p>info@company.com</p>
+                    </span>
+
+                </div>
+
+                <div class="bottom"></div>
+
+            </div>
+
+            <div class="right">
+                <div class="top contact-details">
+                    <span class="icon">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    <span class="content">
+                        <p>123-456-789</p>
+                        <p>123-456-789</p>
+                    </span>
+                    <span class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span class="content">
+                        <p>Your Location Here</p>
+                        <p>New Yourk Str 123, D890B</p>
+                    </span>
+                </div>
+
+                <div class="middle">
+                    <h2>John william</h2>
+                    <p>graphic designer</p>
+                </div>
+
+                <div class="bottom"></div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
