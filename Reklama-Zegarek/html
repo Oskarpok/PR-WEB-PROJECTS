@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart watch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1595806006.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fa-brands fa-apple"></i>
+                </div>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <li><a href="#" class="btn">SIGN IN</a></li>
+                </ul>
+            </nav>
+            <section>
+                <div class="left">
+                    <h2>APPLE WATCH</h2>
+                    <h1>SERIES 7</h1>
+                    <p class="price">From $399 or $16.62 per month for 24 month</p>
+                    <p>Take an ECG anytime, anywhere.See your fitness metrics at a glance with the 
+                    enhanced Always-On Retina display.With Apple Series 6 on your wrist. </p>
+                    <a href="#" class="btn">ADD TO CART</a>
+                </div>
+
+                <div class="right">
+                    <div class="backgroudn"></div>
+                    <div class="image">
+                        <img src="img.jpg">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+</body>
+</html>
