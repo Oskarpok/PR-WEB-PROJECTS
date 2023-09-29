@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1595806006.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="imge/jpg" href="img.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="toggle">
+        <div class="signing">
+            <h1>Sign In</h1>
+            <form>
+                <div class="social">
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>Or use enter info</p>
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <small>Forgot Password</small>
+                <input type="submit" value="Login">
+                <small>Don't have an account yet?<label for="toggle">Sign Up</label> </small>
+            </form>
+        </div>
+        
+        <div class="signup">
+            <h1>Create an account</h1>
+            <form>  
+                <div class="social">
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p>Or enter your details</p>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Confirm Password">
+                <input type="submit" value="Create Account">
+                <small>Alredy have an account?<label for="toggle">Sign In</label></small>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
