@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(img.jpg) no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 28rem;
+}
+
+.signing, .signup{
+    color: white;
+    position: relative;
+    top: 0;/**/
+    left: 0;/**/
+    background: rgba(48, 30, 30, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(30px);
+    animation: animationForm 2s ease forwards;
+}
+
+.container h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social a{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+
+.social a:hover{
+    background: white;
+    color: black;
+}
+
+p{
+    text-align: center;
+    margin: 1rem 0;
+
+}
+
+.container form input{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1.2rem;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.container form input::placeholder{
+    color: white;
+}
+
+.container form input[type="submit"]{
+    background: #47d2fc;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.container form input[type="submit"]:hover{
+    opacity: 0.8;
+}
+
+.container form small{
+    display: block;
+    margin-top: 1rem;
+}
+
+.container form small label{
+    color: yellow;
+    cursor: pointer;
+}
+
+/*sign section*/
+
+.signup{
+    display: none;
+}
+
+#toggle:checked ~ .signing{
+    display: none;
+}
+
+#toggle:checked ~ .signup{
+    display: block;
+}
+
+@keyframes animationForm{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#toggle{
+    appearance:none;
+} 
